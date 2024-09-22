@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="520.0" stylesheets="@../../../../css/welcome.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.login.controller.WelcomeController">
+   <children>
+      <HBox prefHeight="97.0" prefWidth="520.0">
+         <children>
+            <ImageView fitHeight="145.0" fitWidth="349.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../images/logoUE.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox fx:id="hbx_red" layoutY="93.0" prefHeight="309.0" prefWidth="100.0" />
+      <AnchorPane fx:id="large" layoutX="96.0" layoutY="93.0" prefHeight="309.0" prefWidth="424.0">
+         <children>
+            <Label fx:id="lbl_welcome" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="106.0" prefHeight="97.0" prefWidth="288.0">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

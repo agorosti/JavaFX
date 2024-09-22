@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.helloworld.controller.ControllerView">
+   <children>
+      <TextField fx:id="txt" alignment="TOP_CENTER" layoutX="124.0" layoutY="67.0" />
+      <Button fx:id="btn" layoutX="176.0" layoutY="142.0" mnemonicParsing="false" onAction="#showText" text="show" />
+      <Label fx:id="lbl_validation" alignment="CENTER" contentDisplay="CENTER" layoutX="99.0" layoutY="196.0" prefHeight="25.0" prefWidth="199.0" textFill="#f20f0f" />
+   </children>
+</AnchorPane>

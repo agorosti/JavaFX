@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="520.0" stylesheets="@../../../../css/welcome.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.login.controller.RecoveryController">
+   <children>
+      <HBox prefHeight="97.0" prefWidth="520.0">
+         <children>
+            <ImageView fitHeight="145.0" fitWidth="349.0" pickOnBounds="true" preserveRatio="true">
+             <image>
+               <Image url="@../../../../images/logoUE.png" />
+             </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox fx:id="hbx_red" layoutY="93.0" prefHeight="309.0" prefWidth="100.0" />
+      <AnchorPane fx:id="large" layoutX="96.0" layoutY="93.0" prefHeight="309.0" prefWidth="424.0">
+         <children>
+            <Button fx:id="btn_custom" layoutX="165.0" layoutY="187.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="100.0" text="Send " textFill="#0a0a0a" />
+            <Label alignment="CENTER" layoutX="78.0" layoutY="47.0" prefHeight="30.0" prefWidth="268.0" text="Recover Password">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt_email" layoutX="81.0" layoutY="126.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="29.0" prefWidth="268.0" promptText="Enter your email">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
